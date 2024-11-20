@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles can be added here */
+body {
+  @apply bg-gray-50;
+}
+
+/* Prose styles for markdown rendering */
+.prose {
+  @apply max-w-full prose-headings:text-gray-800 prose-p:text-gray-600;
+}

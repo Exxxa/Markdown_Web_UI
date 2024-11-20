@@ -1,0 +1,25 @@
+{
+  "name": "markdown-browser",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "marked": "^15.0.1",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "typescript": "^5.2.0"
+  }
+}
